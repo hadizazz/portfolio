@@ -12,19 +12,15 @@ function Navbar() {
     },
     {
       id: 2,
-      link: "about",
-    },
-    {
-      id: 3,
       link: "projects",
       offset: -100,
     },
     {
-      id: 4,
+      id: 3,
       link: "skills",
     },
     {
-      id: 5,
+      id: 4,
       link: "contact",
     },
   ];
