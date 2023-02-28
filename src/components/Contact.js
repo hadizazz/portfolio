@@ -6,7 +6,7 @@ import { GrLocation } from "react-icons/gr";
 const Contact = () => {
   return (
     <div name="contact" className="w-full h-max">
-      <div className="shadow dark:bg-[#DBE2EF] flex flex-wrap justify-center md:w-max mx-auto h-full  mb-20 p-autp">
+      <div className="shadow bg-[#DBE2EF] flex flex-wrap justify-center md:w-max mx-auto h-full  mb-20 p-autp">
         <div className="flex py-20 px-3 text-start">
           <div className="lg:py-16 lg:px-20 md:p-14 p-5 border-r-2 border-gray-600">
             <p className="text-4xl font-bold inline border-b-4 border-white-200">
