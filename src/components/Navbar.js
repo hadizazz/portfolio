@@ -26,7 +26,7 @@ function Navbar() {
   ];
 
   return (
-    <div className="flex xl:justify-around justify-between items-center w-full h-20 text-white fixed dark:bg-[#112D4E] text-white">
+    <div className="flex xl:justify-around justify-between items-center w-full h-20 text-white fixed  bg-[#112D4E] text-white">
       <div>
         <h1 className="text-2xl p-20 uppercase font-semibold tracking-widest ">
           Hadizazz.
