@@ -5,8 +5,8 @@ import Profile from "../assets/images/profileeee.jpg";
 const home = () => {
   return (
     <div name="home" className="pt-52 h-max w-full ">
-      <div className="shadow dark:bg-[#DBE2EF] max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:w-fit md:p-10 md:flex-row pb-10 border-b border-gray-200 ">
-        <div className=" flex flex-col text-justify justify-start h-full md:w-fit lg:w-screen ">
+      <div className="shadow bg-[#DBE2EF] max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full sm:mx-auto md:w-fit md:p-10 md:flex-row p-10 pb-10 border-b border-gray-200 ">
+        <div className=" flex flex-col text-justify justify-start h-full md:w-fit lg:w-screen">
           <p className="text-4xl md:text-2xl font-bold">
             Hello,I'm
             <span className="md:text-2xl text-red-400">

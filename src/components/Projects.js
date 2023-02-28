@@ -61,11 +61,11 @@ const Projects = () => {
           <p className="text-4xl font-bold inline border-b-4 pt-4">Projects</p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
-        <div className=" p-10 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 sm:px-0 mb-20 h-auto m-10 ">
+        <div className=" p-10 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-10 sm:px-0 mb-20 h-auto m-10">
           {project.map(({ id, src, title, caption, tools, href }) => (
             <div
               key={id}
-              className="border border-gray-200 rounded-lg shadow dark:bg-[#f4f4f9] dark:border-[#b8dbd9]"
+              className="border border-gray-200 rounded-lg shadow bg-[#f4f4f9] border-[#b8dbd9]"
             >
               <div>
                 <img
@@ -74,7 +74,7 @@ const Projects = () => {
                   alt=""
                 />
 
-                <div className="pt-2 h-72">
+                <div className="pt-2 md:h-72 h-auto">
                   <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
                     {title}
                   </h5>
