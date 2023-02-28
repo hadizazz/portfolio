@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import SocialLinks from "./components/SocialLinks";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
       <Projects />
       <Contact />
       <SocialLinks />
+
+      {/* <Analytics /> */}
+      <Analytics debug={false} />
     </div>
   );
 }
